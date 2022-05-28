@@ -133,7 +133,6 @@
   display: flex;
 }
 
-.titlesBox {}
 
 .titleBox1 {
  margin-top: 80px;
@@ -143,16 +142,13 @@
   margin-top:-80px;
 }
 
-.containercompBox {}
 
 .cardCompBox {
   display: flex;
   flex-direction: column;
 }
 
-.titleCompBox1 {}
 
-.titleCompBox2 {}
 
 .containerMember {
   display: flex;
@@ -170,7 +166,6 @@
   margin-top: 90px;
 }
 
-.titleCompMember {}
 
 .containerInput {
   display: flex;
@@ -368,9 +363,7 @@
   margin-top: 10px;
   max-width: 440px;
  }
- .warpperBox{
-
- }
+ 
  .containerBox{
    flex-direction: column;
    width: 140%;
