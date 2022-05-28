@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Raleway:wght@500;700;800;900&display=swap');
+
 .container {
   padding: 0 2rem;
 }
@@ -12,105 +14,381 @@
   align-items: center;
 }
 
-.footer {
+.head {
   display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
+  padding: 1.7rem 1.5rem 0 3.5rem;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 2000;
+  background: #FFFF;
+  width: 100%;
+}
+
+.Warpper{
+  width: 100%;
+}
+
+.options {
+  display: flex;
   justify-content: center;
+}
+
+.titlesOptions {
+  display: flex;
+  margin-top: -8px;
+}
+
+.containerOptions {
+  list-style-type: none;
+  margin-right: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+
+.underlineOptions {
+  height: 5px;
+  width: 110px;
+  background: #4BA87D;
+  margin-top: -10px;
+}
+
+.containerBody {
+  display: flex;
+ justify-content: center;
+ width: 100vw;
+}
+
+.cardTitlesBtnsBody {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  z-index: 200;
+  margin-left: 72px;
+  margin-top: -20px
+}
+
+.cardBody {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 200px;
+}
+
+.ImgBody {
+  margin-left: 463px;
+  margin-top: 10px;
+}
+
+.titleBody {
+  margin-top: -58px;
+}
+
+.cardBtns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  max-width: 445px;
+}
+
+.BtnCustom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 68px;
+  width: 204px;
+  background: #4BA87D;
+}
+
+.fundoVideo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.cardVideo {
+  position: absolute;
+}
+
+.titleVideo {
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
-.footer a {
+
+.warpperBox {
   display: flex;
-  justify-content: center;
+ justify-content: center;
+ margin-top: 20vh;
+}
+
+.containerBox {
+  display: flex;
+}
+
+.cardBox {
+  display: flex;
+}
+
+.titlesBox {}
+
+.titleBox1 {
+ margin-top: 80px;
+}
+
+.titleBox2 {
+  margin-top:-80px;
+}
+
+.containercompBox {}
+
+.cardCompBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.titleCompBox1 {}
+
+.titleCompBox2 {}
+
+.containerMember {
+  display: flex;
   align-items: center;
-  flex-grow: 1;
+  justify-content: center;
 }
 
-.title a {
-  color: #0070f3;
-  text-decoration: none;
+.CardCompMember {
+  display: flex;
+  margin-right: 30px;
 }
 
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
+.titlesCompMember {
+  position: absolute;
+  margin-top: 90px;
 }
 
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
+.titleCompMember {}
+
+.containerInput {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.title,
-.description {
-  text-align: center;
+.cardInput {
+  display: flex;
+  width: 667px;
+  justify-content: space-between;
 }
 
-.description {
-  margin: 4rem 0;
-  line-height: 1.5;
-  font-size: 1.5rem;
+.subTitleInput{
+  display: flex;
+  width: 667px;
+  padding-left: 20px;
 }
 
-.code {
-  background: #fafafa;
+.Input {
+  width: 420px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  padding-left: 20px;
   border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+  border: 1px solid;
 }
 
-.grid {
+.Input::placeholder {
+  color: black;
+}
+
+.cardLogoImg{
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
 }
 
-.card {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+.LogosImgs{
+  display: flex;
+
 }
 
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+.containerGS{
+  width: 100%;
+  height: 366px;
+  background: #4BA87D;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
+.containerFooter{
+  padding: 0 4rem;
+  display: flex;
+  justify-content: space-between;
 }
 
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
+.cardFooter{
+  display: flex;
 }
 
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
+.cardFooter1{
+  margin-right: 30px;
 }
+
+.cardFooter2{
+  margin-right: 30px;
+}
+
+.cardFooter3{
+  margin-right: 30px;
+}
+
+.cardFooter4{
+  margin-right: 30px;
+}
+
+.underlineFooter{
+  width: 100%;
+  height: 2px;
+  background: #DBDBDB;
+}
+
+.Footer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.WarpperFooter{
+  padding: 4rem 5rem 2rem 8rem;
+  max-width: 1088;
+}
+
 
 @media (max-width: 600px) {
   .grid {
     width: 100%;
     flex-direction: column;
   }
+}
+@media (max-width: 2560px) {
+
+  .fundoVideo{
+    margin-top: 30vh;
+    
+  }
+}
+
+@media (max-width: 1024px) {
+
+  .containerFooter{
+    padding: 0;
+  }
+}
+@media (max-width: 768px) {
+
+  .head{
+    padding: 0;
+  }
+  .cardTitleOptions{
+    width: 10px;
+}
+}
+
+@media (max-width: 425px) {
+
+  
+  .mobileTitleBody{
+    font-size: 30px;
+  }
+  .titlesOptions{
+    display: none;
+  }
+  .cardLogo{
+    height: 50px;
+  }
+ .head{
+   display: flex;
+   align-items: center;
+   height: 100px;
+ }
+ .options{
+   margin-right: 20px;
+ }
+ .containerBody{
+   display: flex;
+   padding: 0 0.4rem; 
+   width: 0;
+ }
+ .fundoVideo{
+   margin-top: 90vh;
+   width: 138%;
+   padding-left: 1rem;
+   display: flex;
+   align-items: center;
+   justify-content: center; 
+ }
+ .imgVideo{
+  width: 500px;
+  height: 325px;
+ }
+ .cardVideo{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .cardTitleOptions{
+   display: none;
+ }
+
+ .ImgBody{
+   margin-left: 0;
+   margin-top: 0;
+   position: absolute;
+   width: 500px;
+   height: 325px;
+ }
+ .cardBody{
+  width: 0;
+ }
+ .cardTitlesBtnsBody{
+  margin-left: 20px;
+  margin-top: -135px;
+  width: 135%;
+ }
+ .titleBody{
+   margin-top: 60px;
+ }
+ .cardBtns{
+  margin-top: 10px;
+  max-width: 440px;
+ }
+ .warpperBox{
+
+ }
+ .containerBox{
+   flex-direction: column;
+   width: 140%;
+   
+ }
+ .containercompBox{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+ }
+ .Box2{
+   width: 140%;
+   display: flex;
+   justify-content:flex-end;
+   margin-top: -10px;
+   padding-left: 30px;
+  
+ }
+ .cardBox{
+   flex-direction: column;
+   margin-left: 1rem;
+ }
 }
