@@ -1,7 +1,7 @@
+import img from "../../../public/NinjaMailLogo.png";
+import styles from '../../../styles/Home.module.css';
 import Button from "../Button";
 import Logo from "../Logo";
-import styles from '../../../styles/Home.module.css';
-import img from "../../../public/NinjaMailLogo.png"
 import Title from "../Title";
 
 export default function Head() {
@@ -42,6 +42,3 @@ export default function Head() {
     </div>
   )
 }
-
-
-

@@ -1,10 +1,10 @@
 
 import Image from "next/image";
-import logo1 from "../../../public/logo1.png";
-import logo2 from "../../../public/logo2.png";
-import logo3 from "../../../public/logo3.png";
-import logo4 from "../../../public/logo4.png";
-import logo5 from "../../../public/logo5.png";
+import logo2 from "../../../public/logoDragon2.png";
+import logo5 from "../../../public/logoGame5.png";
+import logo1 from "../../../public/logoLAST1.png";
+import logo3 from "../../../public/logoQuestai3.png";
+import logo4 from "../../../public/logoRadio4.png";
 import img from "../../../public/photo.png";
 import photobox from "../../../public/photobox.png";
 import photobox2 from "../../../public/photobox2.png";
@@ -19,6 +19,7 @@ import CardMember from "../CardMember";
 import Logo from "../Logo";
 import Title from "../Title";
 import TitleBody from "../TitleBody/index";
+import TitleBodyTwo from "../TitleBodyTwo";
 import TitleBox from "../TitleBox";
 
 export default function Body() {
@@ -27,14 +28,14 @@ export default function Body() {
             <div className={styles.containerBody}>
                 <div className={styles.cardBody}>
                     <div className={styles.cardTitlesBtnsBody}>
-                        <TitleBody title={'Create Stunning'} quebratitle={'Email Campaigns'} fontSize={59} fontFamily={'Playfair Display'} />
+                        <TitleBody title={'Create Stunning'} quebratitle={'Email Campaigns'} fontFamily={'Playfair Display'} />
                         <div className={styles.titleBody}>
-                            <TitleBody title={'Create and launch  email campaigns that captivate'} quebratitle={' your customers in just a few clicks.'} fontSize={19} fontFamily={'Raleway'} />
+                            <TitleBodyTwo title={'Create and launch  email campaigns that captivate'} quebratitle={' your customers in just a few clicks.'} fontFamily={'Raleway'} />
                         </div>
                         <div className={styles.cardBtns}>
-                            <Button title={'TRY NOW'} height={65} width={200} cor={'#4BA87D'} fontFamily={'Raleway'} corTitle={'#FFFF'} fontSize={21} fontWeight={900} />
+                            <Button title={'TRY NOW'} cor={'#4BA87D'} fontFamily={'Raleway'} corTitle={'#FFFF'} fontWeight={900} />
                             <div className={styles.BtnCustom}>
-                                <Button title={'GET A DEMO'} height={62} width={198} cor={'#FFFFFF'} fontFamily={'Raleway'} corTitle={'#4BA87D'} fontSize={21} fontWeight={900} />
+                                <Button title={'GET A DEMO'} cor={'#FFFFFF'} fontFamily={'Raleway'} corTitle={'#4BA87D'} fontSize={21} fontWeight={900} />
                             </div>
                         </div>
                     </div>
@@ -49,7 +50,7 @@ export default function Body() {
                 </div>
                 <div className={styles.cardVideo}>
                     <div className={styles.titleVideo}>
-                        <Title title={'Reach More Customers'} fontSize={60} fontFamily={'Playfair Display'} fontWeight={900} cor={'#FFFF'} />
+                        <Title title={''} fontFamily={'Playfair Display'} fontWeight={900} cor={'#FFFF'} />
                         <div className={styles.BtnVideo}>
                             <Button title={'LEARN HOW'} height={65} width={198} cor={'#FFFFFF'} fontFamily={'Raleway'} corTitle={'#4BA87D'} fontSize={21} fontWeight={900} />
                         </div>
@@ -74,11 +75,11 @@ export default function Body() {
                     </div>
                 </div>
             </div>
-            <div>
+            <div className={styles.WarpperMember}>
                 <div className={styles.containerMember}>
-                    <CardMember img={photoMember} />
-                    <CardMember img={photoMember2} />
-                    <CardMember img={photoMember3} />
+                    <CardMember title={"Frankie"} subTitle={"Member since 2016"} img={photoMember} />
+                    <CardMember title={"Camile"} subTitle={"Member since 2012"} img={photoMember2} />
+                    <CardMember title={"Elayne"} subTitle={"Member since 2018"} img={photoMember3} />
                 </div>
                 <div className={styles.containerInput}>
                     <TitleBody title={'Learn how others are reaching their '} quebratitle={'audience easier than ever before.'} fontSize={44} fontWeight={900} fontFamily={'Playfair Display'} />
@@ -93,11 +94,17 @@ export default function Body() {
                 <div className={styles.cardLogoImg}>
                     <TitleBody title={'All the best brands'} quebratitle={'already use us.'} fontSize={44} fontWeight={900} fontFamily={'Playfair Display'} />
                     <div className={styles.LogosImgs}>
-                        <Logo imgP={logo1} marginRight={60} />
-                        <Logo imgP={logo2} marginRight={60} />
-                        <Logo imgP={logo3} marginRight={60} />
-                        <Logo imgP={logo4} marginRight={60} />
+                        <div className={styles.cardLogosImgs}>
+                            <div className={styles.Logo}>
+                                <Logo imgP={logo1} marginRight={60} />
+                                <Logo imgP={logo2} marginRight={60} />
+                            </div>
+                            <div className={styles.Logo}>
+                                <Logo imgP={logo3} marginRight={60} />
+                                <Logo imgP={logo4} marginRight={60} />
+                            </div>
                         <Logo imgP={logo5} marginRight={60} />
+                        </div>
                     </div>
                 </div>
             </div>

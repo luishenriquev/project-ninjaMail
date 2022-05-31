@@ -9,10 +9,10 @@ type Props = {
   fontWeight?: any
 }
 
-export default function TitleBody({ title, fontSize, fontFamily, cor, quebratitle, fontWeight }: Props) {
+export default function TitleBodyTwo({ title, fontSize, fontFamily, cor, quebratitle, fontWeight }: Props) {
   return (
     <div className={styles.card}>
-      <p className={styles.cardtitleBodycomp} style={{
+      <p className={styles.cardtitleBodycompTwo} style={{
         fontSize: fontSize,
         fontFamily: fontFamily,
         color: cor,
