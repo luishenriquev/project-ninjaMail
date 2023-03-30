@@ -1,10 +1,5 @@
 
 import Image from "next/image";
-import logo2 from "../../../public/logoDragon2.png";
-import logo5 from "../../../public/logoGame5.png";
-import logo1 from "../../../public/logoLAST1.png";
-import logo3 from "../../../public/logoQuestai3.png";
-import logo4 from "../../../public/logoRadio4.png";
 import img from "../../../public/photo.png";
 import photobox from "../../../public/photobox.png";
 import photobox2 from "../../../public/photobox2.png";
@@ -16,7 +11,6 @@ import styles from '../../../styles/Home.module.css';
 import Box from "../Box";
 import Button from "../Button";
 import CardMember from "../CardMember";
-import Logo from "../Logo";
 import Title from "../Title";
 import TitleBody from "../TitleBody/index";
 import TitleBodyTwo from "../TitleBodyTwo";
@@ -89,22 +83,6 @@ export default function Body() {
                     </div>
                     <div className={styles.subTitleInput}>
                         <Title title={'Thanks! Email received.'} fontSize={21} fontWeight={500} fontFamily={'Raleway'} cor={'#4BA87D'} />
-                    </div>
-                </div>
-                <div className={styles.cardLogoImg}>
-                    <TitleBody title={'All the best brands'} quebratitle={'already use us.'} fontSize={44} fontWeight={900} fontFamily={'Playfair Display'} />
-                    <div className={styles.LogosImgs}>
-                        <div className={styles.cardLogosImgs}>
-                            <div className={styles.Logo}>
-                                <Logo imgP={logo1} marginRight={60} />
-                                <Logo imgP={logo2} marginRight={60} />
-                            </div>
-                            <div className={styles.Logo}>
-                                <Logo imgP={logo3} marginRight={60} />
-                                <Logo imgP={logo4} marginRight={60} />
-                            </div>
-                        <Logo imgP={logo5} marginRight={60} />
-                        </div>
                     </div>
                 </div>
             </div>

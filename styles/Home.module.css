@@ -57,7 +57,7 @@
 .containerBody {
   display: flex;
   justify-content: center;
-  width: 100vw;
+  width: 100%;
 }
 
 .cardTitlesBtnsBody {
@@ -214,17 +214,6 @@
   color: black;
 }
 
-.cardLogoImg {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 60px;
-}
-
-.LogosImgs {
-  display: flex;
-}
-
 .containerGS {
   width: 100%;
   height: 366px;
@@ -232,6 +221,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 40px;
 }
 
 .containerFooter {
@@ -525,13 +515,6 @@
     width: 100%;
   }
 
-  .LogosImgs {
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    width: 100%;
-  }
-
   .cardMobilFooter {
     display: flex;
     flex-direction: column;
@@ -570,21 +553,6 @@
 
   .cardLogo {
     width: 127px;
-  }
-
-  .cardLogosImgs {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    
-    align-items: center;
-    padding: 0 0 0 1rem;
-    width: 100%;
-  }
-
-  .Logo {
-    display: flex;
-    width: 100%;
   }
 
   .LogoFooter {
